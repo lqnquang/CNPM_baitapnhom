@@ -1,0 +1,157 @@
+/*Reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.heading-intro{
+    height: 60px;
+    display: block;
+    background-color: #fff;
+}
+.top-logo {
+    width: 300px;
+    height: 60px;
+    background-size: contain;
+    text-indent: -9999999px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: block;
+    margin-left: 50px;
+}
+
+
+.search-input {
+    width: 300px; 
+    border: 1px solid rgb(221, 221, 227);
+    border-radius: 8px;
+    outline: none;
+    font-size: 17px;
+    color: var(--black--01);
+    padding: 8px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 11px;
+}
+
+
+.submit-search-btn{
+    width: 89px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid rgb(221, 221, 227);
+    margin-left: 1px;
+    display: inline-block;
+    outline: none;
+    height: 37.6px;
+    margin-top: 11px;
+    }
+
+.submit-search-btn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.tool-nav > li {
+    display: inline-block;
+}
+.tool-nav .subnav a {
+    color: black;
+    padding: 0 16px;
+    text-decoration: none;
+    display: block;
+ }
+.tool-nav .subnav{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    list-style: none;
+    width: 140px;
+    padding: 2px;
+}
+
+.tool-nav .subnav li a {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 14px;
+}
+.tool-nav  li:hover .subnav{
+    color: #000;
+    background-color: #fff;
+    display: block;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.tool-nav .subnav li:hover{
+    background-color: #ccc;
+}
+
+.btn {
+    background-color: #ffff;
+    margin-right: 35px;
+    border: 0;
+    color: #808089;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 6px;
+    width: 140px;
+    text-align: center;
+}
+
+.user-welcome .btn:hover{
+    background-color: #d5d5ed;
+    display: block;
+}
+
+
+.user-welcome {
+    float: right;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav{
+    margin-top: 10px;
+    margin-left: 4%;
+}
+.nav li{
+    line-height: 40px;
+    background-color: #fff;
+    color: #808089;
+    display: block;
+    width: 16%;
+    text-align: center;
+    align-items: center;
+    float:left;
+    font-weight: 700;
+    font-size: .95rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-right: 1px;
+}
+.nav li:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #ccc;
+}
+
